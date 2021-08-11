@@ -1,0 +1,283 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #f4f4f4;
+   background-color: #1B262C;
+}
+
+#title {
+  background-image: linear-gradient(to bottom left, #0F4C75, #3282B8);
+  color: #f4f4f4;
+  border-bottom-left-radius: 30rem 5rem;
+  border-bottom-right-radius: 30rem 5rem;
+}
+
+h1 {
+  margin-top: 10%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.title-image{
+  width: 25rem;
+  height:25rem;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+  border-radius: 100%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+
+
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-top:5%;
+  margin-bottom:4%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 0 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: light;
+  font-size: 1.4rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Lottie Animation*/
+.lottie-anime {
+  margin-left: 0;
+}
+
+
+#features {
+  background-color: #1B262C;
+  color: #f4f4f4;
+  border-bottom-left-radius: 30rem 5rem;
+  border-bottom-right-radius: 30rem 5rem;
+  border-top-left-radius: 30rem 5rem;
+  border-top-right-radius: 30rem 5rem;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4%;
+}
+
+.feature-box-box {
+  border-radius: 10px;
+  padding: 25px 0 25px 0;
+  box-shadow: 5px 5px 0.5rem #696969;
+  transition: 0.5s;
+}
+
+.feature-box-box:hover {
+  transform: translateY(-15px);
+  transition-delay: 3000;
+}
+
+.feature-lottie-icon {
+  margin: 0;
+  padding: 0;
+}
+
+.feature-icon {
+  color: #696969;
+  margin-bottom: 1rem;
+  transition: 0.3;
+}
+
+.feature-icon:hover {
+  color: #f4f4f4;
+  transition-delay: 3000;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* press Section */
+
+#testimonials {
+  background-image: linear-gradient(to bottom left, #0F4C75, #3282B8);
+  /* background-color: #6100BD; */
+  color: #f4f4f4;
+  padding-bottom: 3%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-top-left-radius: 30rem 5rem;
+  border-top-right-radius: 30rem 5rem;
+  border-bottom-left-radius: 30rem 5rem;
+  border-bottom-right-radius: 30rem 5rem;
+
+}
+
+.press-div{
+  margin-top:2%;
+  margin-bottom: 5%;
+}
+
+.press-images {
+  width: 70px;
+  height:70px;
+  margin-top: 30px;
+
+}
+.press-img-div{
+  background-color: #1B262C;
+  float: left;
+  width: 120px;
+  height:120px;
+  margin: 1rem;
+  border-radius: 100%;
+  box-shadow: 0px 5px 0.5rem #212121;
+}
+
+.progress-color{
+  background-color: #3282B8;
+}
+
+
+
+/* Testimonial Section */
+
+#press {
+  background-color: #1B262C;
+  padding: 1% 1%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.testimonial-one {
+
+  text-align: left;
+  box-shadow: 0 0 10px #f4f4f4;
+  box-shadow: 0 0 10px #f4f4f4;
+  position: relative;
+}
+
+.testimonial-two {
+
+  text-align: right;
+  box-shadow: 0 0 10px #f4f4f4;
+  box-shadow: 0 0 10px #f4f4f4;
+  position: relative;
+}
+
+.testimonial-three {
+
+  text-align: left;
+  box-shadow: 0 0 10px #f4f4f4;
+  box-shadow: 0 0 10px #f4f4f4;
+  position: relative;
+}
+
+.testimonial-div {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  padding: 15px 3rem ;
+  transition: 0.5s;
+  width: 56.25rem;
+
+
+}
+.testimonial-two:hover {
+  transform: translateX(-15px);
+  transition-delay: 3000;
+}
+.testimonial-one:hover {
+  transform: translateX(15px);
+  transition-delay: 3000;
+}
+.testimonial-three:hover {
+  transform: translateX(15px);
+  transition-delay: 3000;
+}
+
+
+
+/* footer */
+
+#footer{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-image: linear-gradient(to bottom left, #0F4C75, #3282B8);
+  border-top-left-radius: 30rem 5rem;
+  border-top-right-radius: 30rem 5rem;
+}
+.footer-div{
+  margin-top: 5rem;
+}
+
+.footer-icon-div{
+  color: #f4f4f4;
+  margin-top: 10rem;
+}
+
+.footer-icon-div:hover{
+  color: #1B262C;
+}
+.footer-main-font{
+  font-weight: 400;
+}
+.footer-ul{
+
+}
+.title-image-footer{
+  width: 25rem;
+  height:25rem;
+  margin-top: 0;
+  border-radius: 100%;
+}
+
+.footer-email{
+  margin-top: 5rem;
+}
+a:hover{
+  text-decoration: none;
+  }

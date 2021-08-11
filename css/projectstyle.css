@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #f4f4f4;
+   background-color: #1B262C;
+}
+
+#title {
+  background-image: linear-gradient(to bottom left, #0F4C75, #3282B8);
+  color: #f4f4f4;
+  border-bottom-left-radius: 30rem 5rem;
+  border-bottom-right-radius: 30rem 5rem;
+}
+.title{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.title-image{
+  width: 25rem;
+  height:25rem;
+  margin-top: 2.6rem;
+  margin-left: 3rem;
+  border-radius: 100%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  margin-top: 10%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top:5%;
+  margin-bottom:4%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 0 5%;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+hr{
+  /* visibility: hidden; */
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #1B262C, #3282B8, #1B262C);
+
+
+
+}
+
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: light;
+  font-size: 1.4rem;
+}
+
+/* project sections */
+
+.project-div{
+  margin-top:5rem;
+
+}
+
+/* Unity */
+
+
+#unity{
+  padding: 1% 1%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  color:#0F4C75;
+
+}
+a:hover{
+  color:#3282B8;
+  text-decoration: none;
+}
+
+
+/* web development */
+#webdev{
+  padding: 1% 1%;
+
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#footer{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-image: linear-gradient(to bottom left, #0F4C75, #3282B8);
+  border-top-left-radius: 30rem 5rem;
+  border-top-right-radius: 30rem 5rem;
+}
+.footer-div{
+  margin-top: 5rem;
+}
+
+.footer-icon-div{
+  color: #f4f4f4;
+  margin-top: 10rem;
+}
+
+.footer-icon-div:hover{
+  color: #1B262C;
+}
+.footer-main-font{
+  font-weight: 400;
+}
+.footer-ul{
+
+}
+
+.footer-email{
+  margin-top: 5rem;
+}
+
+.title-image-footer{
+  width: 25rem;
+  height:25rem;
+  margin-top: 0;
+  border-radius: 100%;
+}
