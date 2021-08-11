@@ -149,6 +149,10 @@ a:hover{
 .footer-div{
   margin-top: 5rem;
 }
+.footer-icon{
+  margin-top:3rem;
+  margin-right: 3rem;
+}
 
 .footer-icon-div{
   color: #f4f4f4;

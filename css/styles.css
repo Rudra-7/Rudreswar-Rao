@@ -253,6 +253,10 @@ a {
 .footer-div{
   margin-top: 5rem;
 }
+.footer-icon{
+  margin-top:3rem;
+  margin-right: 3rem;
+}
 
 .footer-icon-div{
   color: #f4f4f4;
@@ -278,6 +282,7 @@ a {
 .footer-email{
   margin-top: 5rem;
 }
+
 a:hover{
   text-decoration: none;
   }
